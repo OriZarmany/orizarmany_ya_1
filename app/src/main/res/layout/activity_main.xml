@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#FFAAAAAA"
+    android:padding="20px">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="נובה"
+        android:textSize="50sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="פסטיבל הנובה (Supernova) היה פסטיבל מוזיקה אלקטרונית שהתקיים ליד קיבוץ רעים, והפך למוקד הטבח המרכזי במתקפת הפתע של 7 באוקטובר 2023. מחבלי חמאס רצחו בשטח הפסטיבל 364 אזרחים, פצעו מאות וחטפו עשרות לרצועת עזה. האירוע הפך לסמל לאומי לכאב, גבורה ואובדן."
+        android:layout_margin="45dp"
+        android:textColor="@color/white"
+        android:background="@color/black" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400px"
+            android:alpha="0.5"
+            android:background="@drawable/img" />
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="7.10"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.5"
+        android:background="@drawable/img_1" />
+
+
+    </LinearLayout>
